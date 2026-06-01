@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+@import "tailwindcss";
+
+body {
+    font-family: "Sora", sans-serif;
+}
+
+.input {
+  @apply w-full p-2 border rounded-xl text-sm outline-none focus:ring-2 focus:ring-blue-500;
+}
